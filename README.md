@@ -57,7 +57,7 @@ pip install -r requirements.txt
 **2. Запуск через консоль (CLI) с использованием сценариев:**
 
 ```bash
-python -m src.main --config config/scenario.yaml typical
+python -m src.main --config config/scenario.yaml --scenario typical
 ```
 
 **3. Запуск REST API сервера:**
