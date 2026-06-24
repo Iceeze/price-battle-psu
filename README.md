@@ -47,8 +47,8 @@ $$Z = price - cost \to \max$$
 **1. Клонирование репозитория и установка зависимостей:**
 
 ```bash
-git clone <url_репозитория>
-cd price_battle
+git clone https://github.com/Iceeze/price-battle-psu.git
+cd price_battle-psu
 python -m venv venv
 source venv/bin/activate  # Для Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -57,13 +57,13 @@ pip install -r requirements.txt
 **2. Запуск через консоль (CLI) с использованием сценариев:**
 
 ```bash
-python main.py --config config/scenario.yaml typical
+python -m src.main --config config/scenario.yaml typical
 ```
 
 **3. Запуск REST API сервера:**
 
 ```bash
-python main.py --api
+python src.main --api
 # Документация Swagger будет доступна по адресу http://127.0.0.1:8000/docs
 ```
 
