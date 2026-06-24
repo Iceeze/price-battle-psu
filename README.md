@@ -63,7 +63,7 @@ python -m src.main --config config/scenario.yaml typical
 **3. Запуск REST API сервера:**
 
 ```bash
-python src.main --api
+python -m src.main --api
 # Документация Swagger будет доступна по адресу http://127.0.0.1:8000/docs
 ```
 
